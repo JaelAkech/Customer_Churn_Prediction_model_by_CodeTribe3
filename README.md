@@ -26,7 +26,7 @@ The column names and their respective descriptions can be found_ (link to data u
 
 
 
-# EXPLORATORY DATA ANALYSIS
+## EXPLORATORY DATA ANALYSIS
 
 Within the dataset of 3,333 customers, around 14.5% (483 customers) have terminated their contract with SyriaTel, resulting in a loss of customer base. This distribution indicates an imbalance between the two binary classes. It is essential to handle this data imbalance prior to modeling to ensure accurate predictions. Failing to address this imbalance could lead to inaccurate model outcomes.
 
