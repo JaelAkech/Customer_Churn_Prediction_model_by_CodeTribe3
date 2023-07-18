@@ -24,29 +24,46 @@ The dataset contains 3333 rows(number of entries) and 20 columns.
 
 The column names and their respective descriptions are:
 
-account length: The number of days the customer has been an active customer.
+_account length_: The number of days the customer has been an active customer.
 
-area code: The area code of the customer's phone number.
+_area code_: The area code of the customer's phone number.
 
-phone number: The customer's phone number.
+_phone number_: The customer's phone number.
 
-international plan: Indicates whether the customer has an international calling plan.<br>
-voice mail plan: Indicates whether the customer has a voicemail plan.
-number vmail messages : Represents the number of voicemail messages the customer has.
-total day minutes: The total number of minutes the customer has used during the day.
-total day calls: The total number of calls the customer has made during the day.
-total day charge: The total charge in dollars for the day's usage.
-total eve minutes: The total number of minutes the customer has used during the evening.
-total eve calls: The total number of calls the customer has made in the evening.
-total eve charge: The total charge in dollars for the evening's usage.
-total night minutes: The total number of minutes the customer has used during the night.
-total night calls: The total number of calls the customer has made during the night.
-total night charge: The total charge in dollars for the night's usage.
-total intl minutes: The total number of international minutes the customer has used.
-total intl calls: The total number of international calls the customer has made.
-total intl charge: The total charge in dollars for the international usage.
-customer service calls: The number of customer service calls made by the customer.
-churn: Indicating whether the customer has churned or not.
+_international plan_: Indicates whether the customer has an international calling plan.
+
+_voice mail plan_: Indicates whether the customer has a voicemail plan.
+
+_number vmail messages_ : Represents the number of voicemail messages the customer has.
+
+_total day minutes_: The total number of minutes the customer has used during the day.
+
+_total day calls_: The total number of calls the customer has made during the day.
+
+_total day charge_: The total charge in dollars for the day's usage.
+
+_total eve minutes_: The total number of minutes the customer has used during the evening.
+
+_total eve calls_: The total number of calls the customer has made in the evening.
+
+_total eve charge_: The total charge in dollars for the evening's usage.
+
+_total night minutes_: The total number of minutes the customer has used during the night.
+
+_total night calls_: The total number of calls the customer has made during the night.
+
+_total night charge_: The total charge in dollars for the night's usage.
+
+_total intl minutes_: The total number of international minutes the customer has used.
+
+_total intl calls_: The total number of international calls the customer has made.
+
+_total intl charge_: The total charge in dollars for the international usage.
+
+_customer service calls_: The number of customer service calls made by the customer.
+
+_churn_: Indicating whether the customer has churned or not.
+
 The data is categorised by 4 data types:
 
 Bool - 1 column (churn)
