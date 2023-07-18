@@ -108,11 +108,8 @@ Overall, the XGBoost model outperformed the other models, providing the highest 
 <img width="299" alt="image" src="https://github.com/Muthoni-Kahura/Customer_Churn_Prediction_model_by_CodeTribe3/assets/128212536/fb3add9f-ca5e-4c10-bed5-8ba662fed371">
 
 
-![image](https://github.com/Muthoni-Kahura/Customer_Churn_Prediction_model_by_CodeTribe3/assets/128212536/97736dd2-4ebb-46b8-847a-250b2e126c64)
-
-
 ### CONCLUSION
 
-
+![image](https://github.com/Muthoni-Kahura/Customer_Churn_Prediction_model_by_CodeTribe3/assets/128212536/97736dd2-4ebb-46b8-847a-250b2e126c64)
 
 ### RECOMMENDATIONS
