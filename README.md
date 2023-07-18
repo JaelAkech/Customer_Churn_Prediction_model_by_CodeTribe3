@@ -22,47 +22,9 @@ The dataset utilised in this research project contains information about custome
 
 The dataset contains 3333 rows(number of entries) and 20 columns.
 
-The column names and their respective descriptions are:
+The column names and their respective descriptions can be found_ (link to data understanding)_
 
-_account length_: The number of days the customer has been an active customer; _(dtype : Int64)_
 
-_area code_: The area code of the customer's phone number; _(dtype : Int64)_
-
-_phone number_: The customer's phone number; _(dtype : object)_
-
-_international plan_: Indicates whether the customer has an international calling plan; _(dtype : object)_
-
-_voice mail plan_: Indicates whether the customer has a voicemail plan; _(dtype : object)_
-
-_number vmail messages_ : Represents the number of voicemail messages the customer has; _(dtype : Int64)_
-
-_total day minutes_: The total number of minutes the customer has used during the day; _(dtype : Float64)_
-
-_total day calls_: The total number of calls the customer has made during the day; _(dtype : Int64)_
-
-_total day charge_: The total charge in dollars for the day's usage; _(dtype : Float64)_
-
-_total eve minutes_: The total number of minutes the customer has used during the evening; _(dtype : Float64)_
-
-_total eve calls_: The total number of calls the customer has made in the evening; _(dtype : Int64)_
-
-_total eve charge_: The total charge in dollars for the evening's usage; _(dtype : Float64)_
-
-_total night minutes_: The total number of minutes the customer has used during the night; _(dtype : Float64)_
-
-_total night calls_: The total number of calls the customer has made during the night; _(dtype : Int64)_
-
-_total night charge_: The total charge in dollars for the night's usage; _(dtype : Float64)_
-
-_total intl minutes_: The total number of international minutes the customer has used; _(dtype : Float64)_
-
-_total intl calls_: The total number of international calls the customer has made; _(dtype : Int64)_
-
-_total intl charge_: The total charge in dollars for the international usage; _(dtype : Float64)_
-
-_customer service calls_: The number of customer service calls made by the customer; _(dtype : Int64)_
-
-_churn_: Indicating whether the customer has churned or not; _(dtype : Bool)_
 
 # EXPLORATORY DATA ANALYSIS
 
@@ -97,7 +59,7 @@ The data is split into training and test sets to evaluate the model's performanc
 **Handling Class Imbalance using SMOTE:**
 To address class imbalance, the Synthetic Minority Over-sampling Technique (SMOTE) is employed. SMOTE oversamples the minority class by synthesizing new examples from existing ones, ensuring better model performance on the minority class without adding new information. It is only applied to the training data, not the test data, to evaluate the model's ability to generalize to unseen data.
 
-## MODELING
+## MODELLING
 
 **Model Development with Lazy Predict**
 
