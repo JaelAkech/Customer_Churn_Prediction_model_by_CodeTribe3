@@ -75,7 +75,6 @@ The evaluation metrics used include accuracy, precision, recall, F1-score, ROC c
 By considering these evaluation metrics, we identified the best-performing model and guided the subsequent hyperparameter tuning process.
 
 **RESULTS**
-![image](https://github.com/Muthoni-Kahura/Customer_Churn_Prediction_model_by_CodeTribe3/assets/128212536/97736dd2-4ebb-46b8-847a-250b2e126c64)
 
 **Decision Tree**
 
@@ -94,6 +93,8 @@ The KNN model achieved an accuracy of 74% with a precision of 0.82, recall of 0.
 The XGBoost model achieved the highest accuracy of 96% with a precision of 0.95, recall of 0.96, and F1-score of 0.95. It demonstrated the best overall performance among the models, with balanced precision and recall for both classes.
 
 Overall, the XGBoost model outperformed the other models, providing the highest accuracy and F1-score, making it the recommended choice for predictive modeling.
+
+![image](https://github.com/Muthoni-Kahura/Customer_Churn_Prediction_model_by_CodeTribe3/assets/128212536/97736dd2-4ebb-46b8-847a-250b2e126c64)
 
 
 ## CONCLUSION
