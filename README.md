@@ -16,22 +16,38 @@
 >
 ### LIBRARIES USED
 >To conduct above mentioned analysis and predictions we used Python language and employed various libraries as shown below;
-(1)import numpy as np 
+(1)import numpy as np
+>
 (2)import pandas as pd 
+
 (3)import scipy.stats as stats 
+
 (4)import seaborn as sns 
+
 (5)import statsmodels.api as sm 
+
 (6)import matplotlib.pyplot as plt
+
 (7)plt.style. use('seaborn') 
+
 (8)from sklearn.model_selection import train_test_split
+
 (9)import warnings
-(10)warnings.filterwarnings("ignore" 
+
+(10)warnings.filterwarnings("ignore")
+
 (11)from sklearn.model_selection import train_test_split 
+
 (12)from sklearn.preprocessing import StandardScaler 
+
 (13)from sklearn.preprocessing import LabelEncoder 
+
 (14)from sklearn.preprocessing import OneHotEncoder 
+
 (15)from sklearn.linear_model import LogisticRegression 
+
 (16)from sklearn.tree import DecisionTreeClassifier 
+
 (17)from sklearn.neighbors import KNeighborsClassifier
 
 ### DATA UNDERSTANDING
