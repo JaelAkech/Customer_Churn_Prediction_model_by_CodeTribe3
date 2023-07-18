@@ -83,13 +83,21 @@ By considering these evaluation metrics, we identified the best-performing model
 
 The Decision Tree model achieved an accuracy of 92% with a precision of 0.93, recall of 0.92, and F1-score of 0.92. It performed well in predicting the majority class (0) but had lower performance in predicting the minority class (1).
 
+<img width="301" alt="image" src="https://github.com/Muthoni-Kahura/Customer_Churn_Prediction_model_by_CodeTribe3/assets/128212536/9e964684-cf49-4ad7-b0f2-6925f04a5da0">
+
+
 **Random Forest**
 
 The Random Forest model achieved an accuracy of 93% with a precision of 0.93, recall of 0.93, and F1-score of 0.93. It showed improved performance compared to the Decision Tree model, achieving balanced precision and recall for both classes.
 
+<img width="326" alt="image" src="https://github.com/Muthoni-Kahura/Customer_Churn_Prediction_model_by_CodeTribe3/assets/128212536/e7dc83ac-ebaa-452c-a5a5-aa44f410e0ad">
+
+
 **KNN (K-Nearest Neighbors)**
 
 The KNN model achieved an accuracy of 74% with a precision of 0.82, recall of 0.74, and F1-score of 0.77. It had lower performance compared to the Decision Tree and Random Forest models, particularly in predicting the minority class (1).
+
+<img width="317" alt="image" src="https://github.com/Muthoni-Kahura/Customer_Churn_Prediction_model_by_CodeTribe3/assets/128212536/716851a4-76fd-4685-a1ad-beffacf64ecb">
 
 **XGBoost**
 
@@ -97,11 +105,11 @@ The XGBoost model achieved the highest accuracy of 96% with a precision of 0.95,
 
 Overall, the XGBoost model outperformed the other models, providing the highest accuracy and F1-score, making it the recommended choice for predictive modeling.
 
-![image](https://github.com/Muthoni-Kahura/Customer_Churn_Prediction_model_by_CodeTribe3/assets/128212536/97736dd2-4ebb-46b8-847a-250b2e126c64)
+<img width="299" alt="image" src="https://github.com/Muthoni-Kahura/Customer_Churn_Prediction_model_by_CodeTribe3/assets/128212536/fb3add9f-ca5e-4c10-bed5-8ba662fed371">
 
 
 ### CONCLUSION
 
-
+![image](https://github.com/Muthoni-Kahura/Customer_Churn_Prediction_model_by_CodeTribe3/assets/128212536/97736dd2-4ebb-46b8-847a-250b2e126c64)
 
 ### RECOMMENDATIONS
