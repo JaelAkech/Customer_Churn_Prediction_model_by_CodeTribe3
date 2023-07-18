@@ -1,7 +1,7 @@
-### SYRIATEL CUSTOMER CHURN
+## SYRIATEL CUSTOMER CHURN
 ![image](https://github.com/Muthoni-Kahura/Customer_Churn_Prediction_model_by_CodeTribe3/assets/128212536/718bce74-01a3-4c18-903d-c7a8bdb1aa9c)
 
-## PROJECT BACKGROUND
+### PROJECT BACKGROUND
 
 SyriaTel is a telecommunications company facing the challenge of customer churn.
 According to Forbes Advisor an article by Monique Danao, published 2nd March 2023 at 11.00am, Customer churn rate, "refers to the rate at which subscribers or customers stop transacting with your business." https://www.forbes.com/advisor/business/churn-rate/
@@ -10,11 +10,11 @@ Churn can have significant financial implications for SyriaTel, including the lo
 
 To address this issue, SyriaTel have requested **CodeTribe3** researchers to build a churn prediction system that can identify customers likely to churn in the near future.
 
-## BUSINESS PROBLEM
+### BUSINESS PROBLEM
 
 Syriatel, a mobile telecommunications provider, focuses on attracting new customers and improving customer retention to grow revenue. To achieve this, they prioritize long-term customer relationships over acquiring new customers. Therefore, churn prediction plays a crucial role in their strategy. The goal of this project is to develop an accurate model for predicting customer churn and identify the significant features for churn prediction. By identifying potential churners, Syriatel can take proactive measures to prevent customers from leaving.
 
-## DATA UNDERSTANDING
+### DATA UNDERSTANDING
 
 For model building we used data from Churn in Telecom's dataset aquired from kaggle. This data file is available in the project repo in the folder "data".
 
@@ -24,9 +24,7 @@ The dataset contains 3333 rows(number of entries) and 20 columns.
 
 The column names and their respective descriptions can be found_ (link to data understanding)_
 
-
-
-## EXPLORATORY DATA ANALYSIS
+#### EXPLORATORY DATA ANALYSIS
 
 Within the dataset of 3,333 customers, around 14.5% (483 customers) have terminated their contract with SyriaTel, resulting in a loss of customer base. This distribution indicates an imbalance between the two binary classes. It is essential to handle this data imbalance prior to modeling to ensure accurate predictions. Failing to address this imbalance could lead to inaccurate model outcomes.
 
@@ -42,24 +40,29 @@ When it comes to churn prediction, there is a weak positive correlation between 
 
 ![image](https://github.com/Muthoni-Kahura/Customer_Churn_Prediction_model_by_CodeTribe3/assets/128212536/5a06d570-f1e1-40f3-8b00-692e7e22b31a)
 
-## DATA PREPARATION FOR MODELLING
+### DATA PREPARATION FOR MODELLING
 
 **Label Encoding:**
+
 Label Encoding is used to convert label variables in the "international plan," "voice mail plan," and "churn" columns into numeric form. "Yes" and "No" in "international plan" and "voice mail plan" are encoded as 1 and 0, respectively, while "False" and "True" in "churn" are encoded as 0 and 1.
 
 **One-Hot Encoding:**
+
 To handle categorical variables, one-hot encoding is applied to the "State" column. This technique converts categorical variables into multiple binary columns, making them compatible with the algorithm.
 
 **Scaling:**
+
 Scaling is essential for accurate predictions in machine learning, especially for algorithms sensitive to feature scaling. The data is scaled to ensure consistency and comparability among features. In this case, the StandardScaler method is used, which standardizes features by subtracting the mean and dividing by the standard deviation. This scaling technique brings the features to a zero mean and unit variance.
 
 **Data Splitting:**
+
 The data is split into training and test sets to evaluate the model's performance on unseen data.
 
 **Handling Class Imbalance using SMOTE:**
+
 To address class imbalance, the Synthetic Minority Over-sampling Technique (SMOTE) is employed. SMOTE oversamples the minority class by synthesizing new examples from existing ones, ensuring better model performance on the minority class without adding new information. It is only applied to the training data, not the test data, to evaluate the model's ability to generalize to unseen data.
 
-## MODELLING
+### MODELLING
 
 **Model Development with Lazy Predict**
 
@@ -67,7 +70,7 @@ Lazy Predict is a tool that simplifies the initial stages of building and evalua
 
 <img width="407" alt="image" src="https://github.com/Muthoni-Kahura/Customer_Churn_Prediction_model_by_CodeTribe3/assets/128212536/354149fb-080a-47e7-a813-e3c1fc44de97">
 
-## EVALUATION
+### EVALUATION
 We employed various evaluation metrics to assess the performance of different models and determine the most suitable candidate for hyperparameter tuning.
 
 The evaluation metrics used include accuracy, precision, recall, F1-score, ROC curve and AUC value, and confusion matrices. These metrics provided insights into overall performance, classification accuracy, visualization of performance, and evaluation of target variable classification.
@@ -97,8 +100,8 @@ Overall, the XGBoost model outperformed the other models, providing the highest 
 ![image](https://github.com/Muthoni-Kahura/Customer_Churn_Prediction_model_by_CodeTribe3/assets/128212536/97736dd2-4ebb-46b8-847a-250b2e126c64)
 
 
-## CONCLUSION
+### CONCLUSION
 
 
 
-## RECOMMENDATIONS
+### RECOMMENDATIONS
