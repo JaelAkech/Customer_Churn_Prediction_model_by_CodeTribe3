@@ -104,3 +104,16 @@ To address class imbalance, the Synthetic Minority Over-sampling Technique (SMOT
 Lazy Predict is a tool that simplifies the initial stages of building and evaluating machine learning models without requiring extensive coding. It provides a comprehensive overview of how different models perform on a given dataset. With Lazy Predict, we can quickly preview the performance of various models before selecting specific ones to work with. This helps in streamlining the model development process and facilitates efficient decision-making.
 
 <img width="407" alt="image" src="https://github.com/Muthoni-Kahura/Customer_Churn_Prediction_model_by_CodeTribe3/assets/128212536/354149fb-080a-47e7-a813-e3c1fc44de97">
+
+
+
+
+## EVALUATION
+
+
+
+## CONCLUSION
+
+
+
+## RECOMMENDATIONS
