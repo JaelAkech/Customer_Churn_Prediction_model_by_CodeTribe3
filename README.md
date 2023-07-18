@@ -82,35 +82,25 @@ When it comes to churn prediction, there is a weak positive correlation between 
 
 ## DATA PREPARATION FOR MODELLING
 
-**Label Encoding**
+**Label Encoding:**
+Label Encoding is used to convert label variables in the "international plan," "voice mail plan," and "churn" columns into numeric form. "Yes" and "No" in "international plan" and "voice mail plan" are encoded as 1 and 0, respectively, while "False" and "True" in "churn" are encoded as 0 and 1.
 
-Label Encoding enables the converting of the label variables in "international plan", "voice mail plan" and "churn" columns to a numeric form.
-The yes and No in "International plan" and "voice mail" plan are converted to 1 and 0 representatively while False and True in churn are converted to 0 and 1.
+**One-Hot Encoding:**
+To handle categorical variables, one-hot encoding is applied to the "State" column. This technique converts categorical variables into multiple binary columns, making them compatible with the algorithm.
 
-**One hot encoding the states column**
+**Scaling:**
+Scaling is essential for accurate predictions in machine learning, especially for algorithms sensitive to feature scaling. The data is scaled to ensure consistency and comparability among features. In this case, the StandardScaler method is used, which standardizes features by subtracting the mean and dividing by the standard deviation. This scaling technique brings the features to a zero mean and unit variance.
 
-To make our algorithm compatible with categorical variables, we employ one-hot encoding.
-We convert the categorical variables in the 'State' column into multiple binary columns. This transformation allows us to easily use the encoded data in our algorithm.
+**Data Splitting:**
+The data is split into training and test sets to evaluate the model's performance on unseen data.
 
-**Scaling**
+**Handling Class Imbalance using SMOTE:**
+To address class imbalance, the Synthetic Minority Over-sampling Technique (SMOTE) is employed. SMOTE oversamples the minority class by synthesizing new examples from existing ones, ensuring better model performance on the minority class without adding new information. It is only applied to the training data, not the test data, to evaluate the model's ability to generalize to unseen data.
 
-Scaling is crucial to enhance prediction accuracy in machine learning.
-It is especially important for algorithms that are sensitive to the scale of features. Scaling involves adjusting the values of multiple variables to make them comparable and fall within a consistent range. Various normalization techniques can be employed, such as setting the variable's average to 0, ensuring a variance of 1, or rescaling the variable within the range of 0 to 1.
+## MODELING
 
-In our specific example, we utilize the StandardScaler, which is a type of scaling method. The StandardScaler standardizes the features by subtracting the mean and dividing by the standard deviation.
-This transformation ensures that the features have zero mean and unit variance. By applying this scaling technique, we prepare the data to be effectively processed by machine learning models.
+**Model Development with Lazy Predict**
 
-**Data Splitting**
+Lazy Predict is a tool that simplifies the initial stages of building and evaluating machine learning models without requiring extensive coding. It provides a comprehensive overview of how different models perform on a given dataset. With Lazy Predict, we can quickly preview the performance of various models before selecting specific ones to work with. This helps in streamlining the model development process and facilitates efficient decision-making.
 
-Data is split into train and test sets.
-
-**Handling class Imbalance using smote**
-
-To ensure the models do not have poor perfomance on the minority class due to imbalance we utilise SMOT to address the imbalanced datasets.
-In our case we oversample the minority class by duplicating examples of the minorty class.
-No new information is added to the model.
-New examples are synthesized from the existing examples.
-SMOT is only used in the training data and not on the test data thus ensuring the evaluation of the model's performance reflects its ability to generalize to unseen data.
-
-
-
+<img width="407" alt="image" src="https://github.com/Muthoni-Kahura/Customer_Churn_Prediction_model_by_CodeTribe3/assets/128212536/354149fb-080a-47e7-a813-e3c1fc44de97">
