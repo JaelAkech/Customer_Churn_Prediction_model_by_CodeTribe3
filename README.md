@@ -28,41 +28,51 @@ _account length_: The number of days the customer has been an active customer; _
 
 _area code_: The area code of the customer's phone number; _(dtype : Int64)_
 
-_phone number_: The customer's phone number_ ; (dtype : object)_
+_phone number_: The customer's phone number; _(dtype : object)_
 
-_international plan_: Indicates whether the customer has an international calling plan_; (dtype : object)_
+_international plan_: Indicates whether the customer has an international calling plan; _(dtype : object)_
 
-_voice mail plan_: Indicates whether the customer has a voicemail plan_; (dtype : object)_
+_voice mail plan_: Indicates whether the customer has a voicemail plan; _(dtype : object)_
 
-_number vmail messages_ : Represents the number of voicemail messages the customer has_; (dtype : Int64)_
+_number vmail messages_ : Represents the number of voicemail messages the customer has; _(dtype : Int64)_
 
-_total day minutes_: The total number of minutes the customer has used during the day_; (dtype : Float64)_
+_total day minutes_: The total number of minutes the customer has used during the day; _(dtype : Float64)_
 
-_total day calls_: The total number of calls the customer has made during the day_; (dtype : Int64)_
+_total day calls_: The total number of calls the customer has made during the day; _(dtype : Int64)_
 
-_total day charge_: The total charge in dollars for the day's usage_; (dtype : Float64)_
+_total day charge_: The total charge in dollars for the day's usage; _(dtype : Float64)_
 
-_total eve minutes_: The total number of minutes the customer has used during the evening_; (dtype : Float64)_
+_total eve minutes_: The total number of minutes the customer has used during the evening; _(dtype : Float64)_
 
-_total eve calls_: The total number of calls the customer has made in the evening_; (dtype : Int64)_
+_total eve calls_: The total number of calls the customer has made in the evening; _(dtype : Int64)_
 
-_total eve charge_: The total charge in dollars for the evening's usage_; (dtype : Float64)_
+_total eve charge_: The total charge in dollars for the evening's usage; _(dtype : Float64)_
 
-_total night minutes_: The total number of minutes the customer has used during the night_; (dtype : Float64)_
+_total night minutes_: The total number of minutes the customer has used during the night; _(dtype : Float64)_
 
-_total night calls_: The total number of calls the customer has made during the night_; (dtype : Int64)_
+_total night calls_: The total number of calls the customer has made during the night; _(dtype : Int64)_
 
-_total night charge_: The total charge in dollars for the night's usage_; (dtype : Float64)_
+_total night charge_: The total charge in dollars for the night's usage; _(dtype : Float64)_
 
-_total intl minutes_: The total number of international minutes the customer has used_; (dtype : Float64)_
+_total intl minutes_: The total number of international minutes the customer has used; _(dtype : Float64)_
 
-_total intl calls_: The total number of international calls the customer has made_; (dtype : Int64)_
+_total intl calls_: The total number of international calls the customer has made; _(dtype : Int64)_
 
-_total intl charge_: The total charge in dollars for the international usage_; (dtype : Float64)_
+_total intl charge_: The total charge in dollars for the international usage; _(dtype : Float64)_
 
-_customer service calls_: The number of customer service calls made by the customer_; (dtype : Int64)_
+_customer service calls_: The number of customer service calls made by the customer; _(dtype : Int64)_
 
-_churn_: Indicating whether the customer has churned or not_; (dtype : Bool)_
+_churn_: Indicating whether the customer has churned or not; _(dtype : Bool)_
+
+# EXPLORATORY DATA ANALYSIS
+
+Within the dataset of 3,333 customers, around 14.5% (483 customers) have terminated their contract with SyriaTel, resulting in a loss of customer base. This distribution indicates an imbalance between the two binary classes. It is essential to handle this data imbalance prior to modeling to ensure accurate predictions. Failing to address this imbalance could lead to inaccurate model outcomes.
+
+![image](https://github.com/Muthoni-Kahura/Customer_Churn_Prediction_model_by_CodeTribe3/assets/128212536/850341cc-3230-445d-8ef3-8037327b95f5)
+
+The features in the dataframe exhibit varying scaling and non-normal distribution. To ensure consistency and comparability, it is necessary to scale and normalize the features.
+
+![image](https://github.com/Muthoni-Kahura/Customer_Churn_Prediction_model_by_CodeTribe3/assets/128212536/f7936dca-26d7-4671-a49e-8fadf4fee853)
 
 
 
