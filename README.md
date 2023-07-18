@@ -105,9 +105,6 @@ Lazy Predict is a tool that simplifies the initial stages of building and evalua
 
 <img width="407" alt="image" src="https://github.com/Muthoni-Kahura/Customer_Churn_Prediction_model_by_CodeTribe3/assets/128212536/354149fb-080a-47e7-a813-e3c1fc44de97">
 
-
-
-
 ## EVALUATION
 We employed various evaluation metrics to assess the performance of different models and determine the most suitable candidate for hyperparameter tuning.
 
@@ -118,13 +115,23 @@ By considering these evaluation metrics, we identified the best-performing model
 **RESULTS**
 ![image](https://github.com/Muthoni-Kahura/Customer_Churn_Prediction_model_by_CodeTribe3/assets/128212536/97736dd2-4ebb-46b8-847a-250b2e126c64)
 
-We assessed four models: Decision Tree, Random Forest, KNN, and XG Boost, using F1-score and Test ROC AUC Score.
+**Decision Tree**
 
-XG Boost achieved the highest F1-score of 0.84, indicating superior prediction accuracy compared to the other models.
+The Decision Tree model achieved an accuracy of 92% with a precision of 0.93, recall of 0.92, and F1-score of 0.92. It performed well in predicting the majority class (0) but had lower performance in predicting the minority class (1).
 
-For Test ROC AUC Score, XG Boost also had the highest score of 0.895, showing better differentiation between positive and negative outcomes.
+**Random Forest**
 
-Based on these metrics, XG Boost performed the best, demonstrating higher prediction accuracy and improved outcome differentiation.
+The Random Forest model achieved an accuracy of 93% with a precision of 0.93, recall of 0.93, and F1-score of 0.93. It showed improved performance compared to the Decision Tree model, achieving balanced precision and recall for both classes.
+
+**KNN (K-Nearest Neighbors)**
+
+The KNN model achieved an accuracy of 74% with a precision of 0.82, recall of 0.74, and F1-score of 0.77. It had lower performance compared to the Decision Tree and Random Forest models, particularly in predicting the minority class (1).
+
+**XGBoost**
+
+The XGBoost model achieved the highest accuracy of 96% with a precision of 0.95, recall of 0.96, and F1-score of 0.95. It demonstrated the best overall performance among the models, with balanced precision and recall for both classes.
+
+Overall, the XGBoost model outperformed the other models, providing the highest accuracy and F1-score, making it the recommended choice for predictive modeling.
 
 
 ## CONCLUSION
