@@ -24,9 +24,9 @@ The dataset contains 3333 rows(number of entries) and 20 columns.
 
 The column names and their respective descriptions are:
 
-_account length_: The number of days the customer has been an active customer _; (dtype : Int64)_
+_account length_: The number of days the customer has been an active customer; _(dtype : Int64)_
 
-_area code_: The area code of the customer's phone number_; (dtype : Int64)_
+_area code_: The area code of the customer's phone number; _(dtype : Int64)_
 
 _phone number_: The customer's phone number_ ; (dtype : object)_
 
