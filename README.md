@@ -25,9 +25,12 @@ The dataset contains 3333 rows(number of entries) and 20 columns.
 The column names and their respective descriptions are:
 
 account length: The number of days the customer has been an active customer.
+
 area code: The area code of the customer's phone number.
+
 phone number: The customer's phone number.
-international plan: Indicates whether the customer has an international calling plan.
+
+international plan: Indicates whether the customer has an international calling plan.<br>
 voice mail plan: Indicates whether the customer has a voicemail plan.
 number vmail messages : Represents the number of voicemail messages the customer has.
 total day minutes: The total number of minutes the customer has used during the day.
