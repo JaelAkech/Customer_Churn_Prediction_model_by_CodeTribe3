@@ -24,49 +24,47 @@ The dataset contains 3333 rows(number of entries) and 20 columns.
 
 The column names and their respective descriptions are:
 
-_account length_: The number of days the customer has been an active customer.
+_account length_: The number of days the customer has been an active customer ; (dtype : Int64)
 
-_area code_: The area code of the customer's phone number.
+_area code_: The area code of the customer's phone number; (dtype : Int64)
 
-_phone number_: The customer's phone number.
+_phone number_: The customer's phone number ; (dtype : object)
 
-_international plan_: Indicates whether the customer has an international calling plan.
+_international plan_: Indicates whether the customer has an international calling plan; (dtype : object)
 
-_voice mail plan_: Indicates whether the customer has a voicemail plan.
+_voice mail plan_: Indicates whether the customer has a voicemail plan; (dtype : object)
 
-_number vmail messages_ : Represents the number of voicemail messages the customer has.
+_number vmail messages_ : Represents the number of voicemail messages the customer has; (dtype : Int64)
 
-_total day minutes_: The total number of minutes the customer has used during the day.
+_total day minutes_: The total number of minutes the customer has used during the day; (dtype : Float64)
 
-_total day calls_: The total number of calls the customer has made during the day.
+_total day calls_: The total number of calls the customer has made during the day; (dtype : Int64)
 
-_total day charge_: The total charge in dollars for the day's usage.
+_total day charge_: The total charge in dollars for the day's usage; (dtype : Float64)
 
-_total eve minutes_: The total number of minutes the customer has used during the evening.
+_total eve minutes_: The total number of minutes the customer has used during the evening; (dtype : Float64)
 
-_total eve calls_: The total number of calls the customer has made in the evening.
+_total eve calls_: The total number of calls the customer has made in the evening; (dtype : Int64)
 
-_total eve charge_: The total charge in dollars for the evening's usage.
+_total eve charge_: The total charge in dollars for the evening's usage; (dtype : Float64)
 
-_total night minutes_: The total number of minutes the customer has used during the night.
+_total night minutes_: The total number of minutes the customer has used during the night; (dtype : Float64)
 
-_total night calls_: The total number of calls the customer has made during the night.
+_total night calls_: The total number of calls the customer has made during the night; (dtype : Int64)
 
-_total night charge_: The total charge in dollars for the night's usage.
+_total night charge_: The total charge in dollars for the night's usage; (dtype : Float64)
 
-_total intl minutes_: The total number of international minutes the customer has used.
+_total intl minutes_: The total number of international minutes the customer has used; (dtype : Float64)
 
-_total intl calls_: The total number of international calls the customer has made.
+_total intl calls_: The total number of international calls the customer has made; (dtype : Int64)
 
-_total intl charge_: The total charge in dollars for the international usage.
+_total intl charge_: The total charge in dollars for the international usage; (dtype : Float64)
 
-_customer service calls_: The number of customer service calls made by the customer.
+_customer service calls_: The number of customer service calls made by the customer; (dtype : Int64)
 
-_churn_: Indicating whether the customer has churned or not.
+_churn_: Indicating whether the customer has churned or not; (dtype : Bool)
 
-The data is categorised by 4 data types:
 
-Bool - 1 column (churn)
-Float64 - 8 columns (total day minutes, total day charge, total eve minutes, total eve charge, total night minutes, total night charge - total intl minutes, total intl charge)
-Int64 - 8 columns (account length, area code, number vmail messages, total day calls, total eve calls, total night calls, total intl calls, customer service calls)
-Object - 3 columns (phone number, international plan, voice mail plan)
+
+
+
