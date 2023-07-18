@@ -109,7 +109,22 @@ Lazy Predict is a tool that simplifies the initial stages of building and evalua
 
 
 ## EVALUATION
+We employed various evaluation metrics to assess the performance of different models and determine the most suitable candidate for hyperparameter tuning.
 
+The evaluation metrics used include accuracy, precision, recall, F1-score, ROC curve and AUC value, and confusion matrices. These metrics provided insights into overall performance, classification accuracy, visualization of performance, and evaluation of target variable classification.
+
+By considering these evaluation metrics, we identified the best-performing model and guided the subsequent hyperparameter tuning process.
+
+**RESULTS**
+![image](https://github.com/Muthoni-Kahura/Customer_Churn_Prediction_model_by_CodeTribe3/assets/128212536/97736dd2-4ebb-46b8-847a-250b2e126c64)
+
+We assessed four models: Decision Tree, Random Forest, KNN, and XG Boost, using F1-score and Test ROC AUC Score.
+
+XG Boost achieved the highest F1-score of 0.84, indicating superior prediction accuracy compared to the other models.
+
+For Test ROC AUC Score, XG Boost also had the highest score of 0.895, showing better differentiation between positive and negative outcomes.
+
+Based on these metrics, XG Boost performed the best, demonstrating higher prediction accuracy and improved outcome differentiation.
 
 
 ## CONCLUSION
