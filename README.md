@@ -67,7 +67,6 @@ sklearn.neighbors import KNeighborsClassifier
 |Customer service calls|The number of customer service calls made by the customer|Int64|
 |Churn|Indicating whether the customer has churned or not|Bool|
 
-
 #### DATA CLEANING
 
 > The initial step in data analysis and modeling involves cleaning and preparing the dataset to ensure its quality and reliability. The following steps were taken:
@@ -124,7 +123,7 @@ sklearn.neighbors import KNeighborsClassifier
 > We used Lazy Predict, a tool that simplifies the initial stages of building and evaluating machine learning models. It provides a comprehensive overview of model performance on a given dataset, allowing for quick previews before selecting specific models. This streamlines the model development process and supports efficient decision-making.
 <img width="362" alt="image" src="https://github.com/Muthoni-Kahura/Customer_Churn_Prediction_model_by_CodeTribe3/assets/128212536/bbd8414b-4254-4984-ac9a-fd0f85da6be3">
 
-** Models**
+**Models**
 ---
 
 - **Decision Tree**
