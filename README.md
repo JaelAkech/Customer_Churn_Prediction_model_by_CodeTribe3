@@ -13,6 +13,11 @@
 ### BUSINESS PROBLEM
 ---
 > Syriatel, a mobile telecommunications provider, focuses on attracting new customers and improving customer retention to grow revenue. To achieve this, they prioritize long-term customer relationships over acquiring new customers. Therefore, churn prediction plays a crucial role in their strategy. The goal of this project is to develop an accurate model for predicting customer churn and identify the significant features for churn prediction. By identifying potential churners, Syriatel can take proactive measures to prevent customers from leaving.
+>
+### LIBRARIES USED
+>To conduct above mentioned analysis and predictions we used Python language and employed various libraries as shown below;
+>(Add libraries)
+
 
 ### DATA UNDERSTANDING
 ---
