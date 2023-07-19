@@ -122,7 +122,7 @@ sklearn.neighbors import KNeighborsClassifier
 - **Model Development with Lazy Predict**
 
 > We used Lazy Predict, a tool that simplifies the initial stages of building and evaluating machine learning models. It provides a comprehensive overview of model performance on a given dataset, allowing for quick previews before selecting specific models. This streamlines the model development process and supports efficient decision-making.
-![Alt text](image.png)
+<img width="362" alt="image" src="https://github.com/Muthoni-Kahura/Customer_Churn_Prediction_model_by_CodeTribe3/assets/128212536/bbd8414b-4254-4984-ac9a-fd0f85da6be3">
 
 ** Models**
 ---
@@ -135,18 +135,17 @@ sklearn.neighbors import KNeighborsClassifier
 - **Random Forest**
 
 >The Random Forest model achieved an accuracy of 94% with a precision of 0.93, recall of 0.94, and F1-score of 0.93. It showed improved performance compared to the Decision Tree model, achieving balanced precision and recall for both classes.
-![Alt text](image-1.png)
+<img width="260" alt="image" src="https://github.com/Muthoni-Kahura/Customer_Churn_Prediction_model_by_CodeTribe3/assets/128212536/40587a7c-2a2f-40a1-899e-c9a75f1b7f44">
 
 - **KNN (K-Nearest Neighbors)**
 
 >The KNN model achieved an accuracy of 74% with a precision of 0.82, recall of 0.74, and F1-score of 0.77. It had lower performance compared to the Decision Tree and Random Forest models, particularly in predicting the minority class (1).
-![Alt text](image-2.png)
+<img width="283" alt="image" src="https://github.com/Muthoni-Kahura/Customer_Churn_Prediction_model_by_CodeTribe3/assets/128212536/5a0f3998-74e0-48bd-b291-6d79e1132a52">
 
 - **XGBoost**
 
 >The XGBoost model achieved the highest accuracy of 98% with a precision of 0.96, recall of 0.96, and F1-score of 0.96. It demonstrated the best overall performance among the models, with balanced precision and recall for both classes.
-![Alt text](image-3.png)
-
+<img width="248" alt="image" src="https://github.com/Muthoni-Kahura/Customer_Churn_Prediction_model_by_CodeTribe3/assets/128212536/4c023b96-8d83-422d-a9bd-1b74d3095c4c">
 
 ### MODEL EVALUATION AND SELECTION
 ---
@@ -156,16 +155,16 @@ sklearn.neighbors import KNeighborsClassifier
 
 >By considering these evaluation metrics, the XGBoost model outperformed the other models, providing the highest accuracy and F1-score, making it the recommended choice for predictive modeling.
 
-![Alt text](image-4.png)
+![image](https://github.com/Muthoni-Kahura/Customer_Churn_Prediction_model_by_CodeTribe3/assets/128212536/2e6c0592-e7fb-4f52-a5ea-2c684098c53d)
 
 ** Model Optimization**
 >We  enhanced  XGBoost model's performance by utilizing the top 10 most relevant features. We identified these features by sorting them based on their importance using indices.
 
-![Alt text](image-5.png)
+![image](https://github.com/Muthoni-Kahura/Customer_Churn_Prediction_model_by_CodeTribe3/assets/128212536/0325e084-12fb-4deb-8a94-cb6c23f26ea4)
 
 > The most important features identified in predicting churn were customer service calls, total day minutes, total day charge, voice mail plan, total eve charge, and total int calls. These features played a crucial role in accurately predicting churned customers.
 
-![Alt text](image-6.png)
+<img width="257" alt="image" src="https://github.com/Muthoni-Kahura/Customer_Churn_Prediction_model_by_CodeTribe3/assets/128212536/ea220ac7-762e-491b-a946-43590166761d">
 
 >Compared to the previous version of the XGBoost model, the optimized version achieved slightly better performance in terms of precision, recall, and F1-score for churned customers. The model demonstrated high accuracy and effectively balanced correctly identifying churned customers while minimizing false positives.
 
