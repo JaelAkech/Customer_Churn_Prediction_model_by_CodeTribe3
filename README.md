@@ -37,7 +37,6 @@ sklearn.preprocessing import OneHotEncoder
 sklearn.linear_model import LogisticRegression
 sklearn.tree import DecisionTreeClassifier 
 sklearn.neighbors import KNeighborsClassifier
-|
 
 ### DATA UNDERSTANDING
 ---
