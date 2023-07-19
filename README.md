@@ -83,7 +83,7 @@ sklearn.neighbors import KNeighborsClassifier
 
 #### EXPLORATORY DATA ANALYSIS
 ---
-> Within the cleaned dataset of, around 13.9% of the customers had terminated their contract with SyriaTel, resulting in a loss of customer base. This distribution indicated an imbalance between the two binary classes. It was essential to handle this data imbalance prior to modeling to ensure accurate predictions. Failing to address this imbalance could lead to inaccurate model outcomes.
+> Within the cleaned dataset 13.9% of the customers had terminated their contract with SyriaTel, resulting in a loss of customer base. This distribution indicated an imbalance between the two binary classes. It was essential to handle this data imbalance prior to modeling to ensure accurate predictions. Failing to address this imbalance could lead to inaccurate model outcomes.
 ![image](https://github.com/Muthoni-Kahura/Customer_Churn_Prediction_model_by_CodeTribe3/assets/128212536/04c5b50f-8055-4f46-b7a0-ddec2d898eff)
 
 > The features in the dataframe exhibited varying scaling and non-normal distribution. To ensure consistency and comparability, it was necessary to scale and normalize the features.
