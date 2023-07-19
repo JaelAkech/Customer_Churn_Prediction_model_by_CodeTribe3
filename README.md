@@ -156,7 +156,7 @@ sklearn.neighbors import KNeighborsClassifier
 
 ![image](https://github.com/Muthoni-Kahura/Customer_Churn_Prediction_model_by_CodeTribe3/assets/128212536/2e6c0592-e7fb-4f52-a5ea-2c684098c53d)
 
-** Model Optimization**
+**Model Optimization**
 >We  enhanced  XGBoost model's performance by utilizing the top 10 most relevant features. We identified these features by sorting them based on their importance using indices.
 
 ![image](https://github.com/Muthoni-Kahura/Customer_Churn_Prediction_model_by_CodeTribe3/assets/128212536/0325e084-12fb-4deb-8a94-cb6c23f26ea4)
