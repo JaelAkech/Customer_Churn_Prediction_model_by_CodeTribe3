@@ -46,26 +46,26 @@ sklearn.neighbors import KNeighborsClassifier
 
 |Column Name |Data Type| Description
 |---|---|---|
-|account length|The number of days the customer has been an active customer|Int64|
-|area code|The area code of the customer's phone number|Int64|
-|phone number|The customer's phone number|object|
-|international plan|Indicates whether the customer has an international calling plan|object|
-|voice mail plan|Indicates whether the customer has a voicemail plan|object|
-|number vmail messages|  Represents the number of voicemail messages the customer has|Int64|
-|total day minutes|The total number of minutes the customer has used during the day|Float64|
-|total day calls|The total number of calls the customer has made during the day|Int64|
-|total day charge|The total charge in dollars for the day's usage|Float64|
-|total eve minutes|The total number of minutes the customer has used during the evening|Float64|
-|total eve calls|The total number of calls the customer has made in the evening|Int64|
-|total eve charge|The total charge in dollars for the evening's usage|Float64|
-|total night minutes|The total number of minutes the customer has used during the night|Float64|
-|total night calls|The total number of calls the customer has made during the night|Int64|
-|total night charge|The total charge in dollars for the night's usage|Float64|
-|total intl minutes|The total number of international minutes the customer has used|Float64|
-|total intl calls|The total number of international calls the customer has made|Int64|
-|total intl charge|The total charge in dollars for the international usage|Float64|
-|customer service calls|The number of customer service calls made by the customer|Int64|
-|churn|Indicating whether the customer has churned or not|Bool|
+|Account length|The number of days the customer has been an active customer|Int64|
+|Area code|The area code of the customer's phone number|Int64|
+|Phone number|The customer's phone number|object|
+|International plan|Indicates whether the customer has an international calling plan|object|
+|Voice mail plan|Indicates whether the customer has a voicemail plan|object|
+|Number vmail messages|  Represents the number of voicemail messages the customer has|Int64|
+|Total day minutes|The total number of minutes the customer has used during the day|Float64|
+|Total day calls|The total number of calls the customer has made during the day|Int64|
+|Total day charge|The total charge in dollars for the day's usage|Float64|
+|Total eve minutes|The total number of minutes the customer has used during the evening|Float64|
+|Total eve calls|The total number of calls the customer has made in the evening|Int64|
+|Total eve charge|The total charge in dollars for the evening's usage|Float64|
+|Total night minutes|The total number of minutes the customer has used during the night|Float64|
+|Total night calls|The total number of calls the customer has made during the night|Int64|
+|Total night charge|The total charge in dollars for the night's usage|Float64|
+|Total intl minutes|The total number of international minutes the customer has used|Float64|
+|Total intl calls|The total number of international calls the customer has made|Int64|
+|Total intl charge|The total charge in dollars for the international usage|Float64|
+|Customer service calls|The number of customer service calls made by the customer|Int64|
+|Churn|Indicating whether the customer has churned or not|Bool|
 
 
 #### DATA CLEANING
