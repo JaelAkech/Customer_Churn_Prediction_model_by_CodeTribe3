@@ -83,8 +83,8 @@ sklearn.neighbors import KNeighborsClassifier
 
 #### EXPLORATORY DATA ANALYSIS
 ---
-> Within the dataset of 3,333 customers, around 14.5% (483 customers) had terminated their contract with SyriaTel, resulting in a loss of customer base. This distribution indicated an imbalance between the two binary classes. It was essential to handle this data imbalance prior to modeling to ensure accurate predictions. Failing to address this imbalance could lead to inaccurate model outcomes.
-![image](https://github.com/Muthoni-Kahura/Customer_Churn_Prediction_model_by_CodeTribe3/assets/128212536/850341cc-3230-445d-8ef3-8037327b95f5)
+> Within the cleaned dataset of, around 13.9% of the customers had terminated their contract with SyriaTel, resulting in a loss of customer base. This distribution indicated an imbalance between the two binary classes. It was essential to handle this data imbalance prior to modeling to ensure accurate predictions. Failing to address this imbalance could lead to inaccurate model outcomes.
+![image](https://github.com/Muthoni-Kahura/Customer_Churn_Prediction_model_by_CodeTribe3/assets/128212536/04c5b50f-8055-4f46-b7a0-ddec2d898eff)
 
 > The features in the dataframe exhibited varying scaling and non-normal distribution. To ensure consistency and comparability, it was necessary to scale and normalize the features.
 ![image](https://github.com/Muthoni-Kahura/Customer_Churn_Prediction_model_by_CodeTribe3/assets/128212536/f7936dca-26d7-4671-a49e-8fadf4fee853)
@@ -121,30 +121,30 @@ sklearn.neighbors import KNeighborsClassifier
 - **Model Development with Lazy Predict**
 
 > We used Lazy Predict, a tool that simplifies the initial stages of building and evaluating machine learning models. It provides a comprehensive overview of model performance on a given dataset, allowing for quick previews before selecting specific models. This streamlines the model development process and supports efficient decision-making.
-<img width="362" alt="image" src="https://github.com/Muthoni-Kahura/Customer_Churn_Prediction_model_by_CodeTribe3/assets/128212536/bbd8414b-4254-4984-ac9a-fd0f85da6be3">
+<img width="367" alt="image" src="https://github.com/Muthoni-Kahura/Customer_Churn_Prediction_model_by_CodeTribe3/assets/128212536/31f5878c-414f-4a12-abf9-a6768c4eed76">
 
 **Models**
 ---
 
 - **Decision Tree**
 
->The Decision Tree model achieved an accuracy of 92% with a precision of 0.93, recall of 0.92, and F1-score of 0.92. It performed well in predicting the majority class (0) but had lower performance in predicting the minority class (1).
-<img width="301" alt="image" src="https://github.com/Muthoni-Kahura/Customer_Churn_Prediction_model_by_CodeTribe3/assets/128212536/9e964684-cf49-4ad7-b0f2-6925f04a5da0">
+>The Decision Tree model achieved an accuracy of 91% with a precision of 0.92, recall of 0.91, and F1-score of 0.92. It performed well in predicting the majority class (0) but had lower performance in predicting the minority class (1).
+<img width="268" alt="image" src="https://github.com/Muthoni-Kahura/Customer_Churn_Prediction_model_by_CodeTribe3/assets/128212536/49a88b32-d339-4c3e-a367-7cf533c31375">
 
 - **Random Forest**
 
->The Random Forest model achieved an accuracy of 94% with a precision of 0.93, recall of 0.94, and F1-score of 0.93. It showed improved performance compared to the Decision Tree model, achieving balanced precision and recall for both classes.
-<img width="260" alt="image" src="https://github.com/Muthoni-Kahura/Customer_Churn_Prediction_model_by_CodeTribe3/assets/128212536/40587a7c-2a2f-40a1-899e-c9a75f1b7f44">
+>The Random Forest model achieved an accuracy of 94% with a precision of 0.93, recall of 0.93, and F1-score of 0.93. It showed improved performance compared to the Decision Tree model, achieving balanced precision and recall for both classes.
+<img width="287" alt="image" src="https://github.com/Muthoni-Kahura/Customer_Churn_Prediction_model_by_CodeTribe3/assets/128212536/21925ea3-62cf-41eb-ab4e-fe5528750501">
 
 - **KNN (K-Nearest Neighbors)**
 
->The KNN model achieved an accuracy of 74% with a precision of 0.82, recall of 0.74, and F1-score of 0.77. It had lower performance compared to the Decision Tree and Random Forest models, particularly in predicting the minority class (1).
-<img width="283" alt="image" src="https://github.com/Muthoni-Kahura/Customer_Churn_Prediction_model_by_CodeTribe3/assets/128212536/5a0f3998-74e0-48bd-b291-6d79e1132a52">
+>The KNN model achieved an accuracy of 73% with a precision of 0.82, recall of 0.73, and F1-score of 0.76. It had lower performance compared to the Decision Tree and Random Forest models, particularly in predicting the minority class (1).
+<img width="263" alt="image" src="https://github.com/Muthoni-Kahura/Customer_Churn_Prediction_model_by_CodeTribe3/assets/128212536/cb2849b6-45c5-4f35-8459-60d3f1d3706d">
 
 - **XGBoost**
 
->The XGBoost model achieved the highest accuracy of 98% with a precision of 0.96, recall of 0.96, and F1-score of 0.96. It demonstrated the best overall performance among the models, with balanced precision and recall for both classes.
-<img width="248" alt="image" src="https://github.com/Muthoni-Kahura/Customer_Churn_Prediction_model_by_CodeTribe3/assets/128212536/4c023b96-8d83-422d-a9bd-1b74d3095c4c">
+>The XGBoost model achieved the highest accuracy of 96% with a precision of 0.96, recall of 0.96, and F1-score of 0.96. It demonstrated the best overall performance among the models, with balanced precision and recall for both classes.
+<img width="266" alt="image" src="https://github.com/Muthoni-Kahura/Customer_Churn_Prediction_model_by_CodeTribe3/assets/128212536/d3739256-5371-4b71-ab54-21c6e727f451">
 
 ### MODEL EVALUATION AND SELECTION
 ---
@@ -159,7 +159,7 @@ sklearn.neighbors import KNeighborsClassifier
 **Model Optimization**
 >We  enhanced  XGBoost model's performance by utilizing the top 10 most relevant features. We identified these features by sorting them based on their importance using indices.
 
-![image](https://github.com/Muthoni-Kahura/Customer_Churn_Prediction_model_by_CodeTribe3/assets/128212536/0325e084-12fb-4deb-8a94-cb6c23f26ea4)
+<img width="284" alt="image" src="https://github.com/Muthoni-Kahura/Customer_Churn_Prediction_model_by_CodeTribe3/assets/128212536/921f9b93-72bd-4b54-9a94-056b5da1c06b">
 
 > The most important features identified in predicting churn were customer service calls, total day minutes, total day charge, voice mail plan, total eve charge, and total int calls. These features played a crucial role in accurately predicting churned customers.
 
